@@ -1,6 +1,8 @@
 body {background-color: green;
-	#slogan {color:orange;
-		text-transform:uppercase;
-		font-style: italic;}
+	
 	}
 h1, p {color:white;}
+
+#slogan {color:orange;
+		text-transform:uppercase;
+		font-style: italic;}
