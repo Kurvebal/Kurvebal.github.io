@@ -28,16 +28,19 @@ div {
 	border:2px solid black;
 	background: #ffffff;
 	color: white;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 	display: inline-block;
 	margin: 20px;
 }
 
 ul {
-	font size: 40px;
-	font-style: bold;
 	list-style-position: inside;
+}
+
+li {
+	font-size: 40px;
+	font-style: bold;
 }
 
 a {
