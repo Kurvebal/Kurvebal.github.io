@@ -1,21 +1,25 @@
-body {background-color: #064C53;
+body {
+	background-color:#064C53;
 	color:white;
 }
 
-h1{font-size:150px;
+h1 {
+	font-size:150px;
 	text-align:center;
 	font-style: bold;
 }
 
-p{font-size:40px;
+p {
+	font-size: 40px;
 	font-style: normal;
 }
 
-#slogan {color:#EA9500;
+#slogan {
+	color:#EA9500;
 	font-size: 80px;
-		text-transform:uppercase;
-		text-align:center
-		font-style: italic;
+	text-transform:uppercase;
+	text-align:center
+	font-style: italic;
 	}
 
 div {
