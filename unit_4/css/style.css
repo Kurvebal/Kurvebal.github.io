@@ -1,0 +1,68 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oxygen|Righteous|Volkhov);
+
+
+body {
+	background-color:#064C53;
+	color:white;
+	text-align:center;
+}
+
+h1 {
+	font-size:100px;
+	font-family: Volkhov, black;
+	font-style: bold;
+}
+
+p {
+	font-size: 40px;
+	font-family: Oxygen, normal;
+	font-style: normal;
+	line-height: 1.5em;
+}
+
+#slogan {
+	color:#EA9500;
+	font-size: 60px;
+	text-transform:uppercase;
+	font-family: Righteous, normal;
+	text-align:center;
+	font-style:italic;
+	}
+
+#bullets {
+	color:#EA9500;
+	font-size: 40px;
+	text-transform:uppercase;
+	font-family: Righteous, normal;
+	text-align:center;
+	line-height: 2em;
+	word-spacing: 0.25em;
+	}
+
+div {
+	width:300px;
+	height:50px;
+	border:2px solid black;
+	background: #ffffff;
+	color: white;
+	font-size: 40px;
+	font-family: Righteous;
+	text-align: center;
+	display: inline-block;
+	margin: 20px;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+li {
+	font-size: 40px;
+	font-style: bold;
+}
+
+a {
+    color: #EA9500;
+    font-style: bold;
+}
