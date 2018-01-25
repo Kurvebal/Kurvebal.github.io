@@ -1,0 +1,128 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oxygen|Righteous|Volkhov);
+
+
+body {
+	background-color:#064C53;
+	color:white;
+	text-align:center;
+}
+
+nav { background-color:#E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav ul {
+
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
+
+}
+
+nav li {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 100px;
+	text-decoration:none;
+}
+
+header { background-color:#FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section { background-color:#FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer { background-color:#FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+h1 {
+	font-size:100px;
+	font-family: Volkhov, black;
+	font-style: bold;
+}
+
+h2 {font-size: 30px;
+font-family: Volkhov, black;
+margin-bottom: 5px;}
+
+p {
+	font-size: 40px;
+	font-family: Oxygen, normal;
+	font-style: normal;
+	line-height: 1.5em;
+}
+
+
+
+ul {
+	list-style-position: inside;
+}
+
+li {
+	font-color:#EA9500;
+	font-size: 40px;
+	text-transform:uppercase;
+	font-family: Righteous, normal;
+	text-align:center;
+	line-height: 2em;
+	word-spacing: 0.25em;
+}
+
+a {
+    color: #EA9500;
+    font-style: bold;
+}
+
+#slogan {
+	color:#EA9500;
+	font-size: 60px;
+	text-transform:uppercase;
+	font-family: Righteous, normal;
+	text-align:center;
+	font-style:italic;
+	line-height: 1em;
+	}
+
+.description {
+	text-align: center;
+}
+.description p {
+	font-size: 20px;
+	margin: auto;
+	width: 700px;
+
+}
+
+.product {
+	margin-top: 15px;
+	padding-top: 15px;
+	margin-bottom: 5px;
+	padding bottom: 5px;
+}
+
+.buybox {
+	width:300px;
+	height:50px;
+	border:2px solid #EA9500;
+	background: #000000;
+	font-size: 40px;
+	font-family: Righteous;
+	text-align: center;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom:; 10px;
+	align-content: middle;
+}
+
+
