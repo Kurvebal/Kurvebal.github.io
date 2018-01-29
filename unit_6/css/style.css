@@ -8,11 +8,13 @@ body {
 	text-align:center;
 }
 
+img { width: 100%;
+ }
 nav { 
     padding: 20px;
 }
 
-nav ul {
+	nav ul {
 
 	list-style-type: none;
 	margin: auto;
@@ -22,7 +24,7 @@ nav ul {
 
 }
 
-nav li {
+	nav li {
 	float: left;
 	display: block;
 	text-align: center;
@@ -106,13 +108,13 @@ a {
 }
 
 
-#two_column {
+.two_column {
     background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
 }
 
-#left {
+.left {
     background-color: violet;
     border: 1px black solid;
     padding: 20px;
@@ -122,7 +124,7 @@ a {
 
 
 
-#right {
+.right {
     background-color: pink;
     border: 1px black solid;
     padding: 20px;
