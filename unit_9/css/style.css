@@ -1,0 +1,218 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oxygen|Righteous|Volkhov);
+
+
+body {
+	background-color:#064C53;
+	color:white;
+	text-align:center;
+	word-wrap: break-word;
+}
+
+img { 
+	width: 100%;
+ }
+
+nav { 
+    padding: 0.5em;
+}
+
+	nav ul {
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
+	}
+
+	nav li {
+	float: left;
+	display: block;
+	text-align: center;
+	font-size: 2.5em;
+	padding: 0.7em 2.5em;
+	text-decoration:none;
+	}
+
+	nav li:hover {
+    background-color: black;
+    }
+
+
+section {
+	text-align: left;
+    font-size: 1em;
+	}
+
+footer {
+    padding: 1em;
+}
+h1 {
+	font-size: 5em;
+	font-family: Volkhov, black;
+	font-style: bold;
+}
+
+h2 {font-size: 3em;
+font-family: Volkhov, black;
+margin-bottom: .25em;
+}
+
+p {
+	font-size: 2em;
+	font-family: Oxygen, normal;
+	font-style: normal;
+	line-height: 1.5em;
+}
+
+ul {
+	overflow: hidden;
+	list-style: outside disc;
+    margin-left: 1em;
+}
+
+li {
+	font-color:#EA9500;
+	font-size: 2em;
+	text-transform:uppercase;
+	font-family: Righteous, normal;
+	line-height: 2em;
+	word-spacing: .25em;
+}
+a {
+    color: #EA9500;
+    font-style: bold;
+
+}
+
+
+
+#slogan {
+	color:#EA9500;
+	font-size: 2.5em;
+	text-transform:uppercase;
+	font-family: Righteous, normal;
+	text-align:center;
+	font-style:italic;
+	line-height: 1em;
+	}
+
+.active {
+	color: yellow;
+}
+
+.description {
+	text-align: center;
+}
+.description p {
+	margin: auto;
+	font-size: 2.5em;
+	width: 100%;
+	padding-bottom: .25em;
+
+}
+
+.product {
+	margin-top: .75em;
+	padding-top: .75em;
+	margin-bottom: .25em;
+	padding bottom: .25em;
+}
+
+
+#two_column {
+    padding: 1em;
+}
+
+.left {
+    padding: 1em;
+    float: left;
+    width: 30%;
+}
+
+
+
+.right {
+    padding: 1em;
+    float: right;   
+    width: 60%;
+}
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 900px) {
+
+
+	nav li {
+		float: none;
+		margin: auto;
+		font-size: 2em;
+		padding: 0em 1.5em;
+	}
+	nav { 
+    	padding: 0;
+   	}
+
+
+	h1 {
+	font-size: 3em;
+	font-family: Volkhov, black;
+	font-style: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	}
+
+	h2 {
+	font-size: 2em;
+	margin-top: 0.25em;
+	}
+
+	p {
+	font-size: 1.25em;
+	}
+
+	li {
+	font-size: 1.25em;
+	}
+
+	footer {
+    padding: 0.5em;
+    }
+
+	.description p {
+	margin: auto;
+	font-size: 1.25em;
+	width: 100%;
+	padding-bottom: .25em;
+	}
+
+	.left {
+    padding: 0.5em;
+    float: none;
+    width: 100%;
+	}
+	.right {
+    padding: 0.5em;
+    float: none;   
+    width: 100%;
+	}
+
+	#two_column {
+    padding: 0.5em;
+	}
+
+	#slogan {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+	margin-top: 0;
+	}
+}
